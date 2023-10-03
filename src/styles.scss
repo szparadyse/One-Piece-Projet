@@ -1,0 +1,29 @@
+//Déclaration de mes fonts
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'OnePieceFont';
+    src: url('assets/fonts/onePieceFont.ttf') format('truetype'); /* Chemin vers le fichier TTF */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+//Mes variables 
+$rouge : #E40046;
+$noir : #000000;
+$blanc : #FFFFFF;
+$jaune : #FFD100;
+$bleu :   #0074A5;
+$fontOP : 'OnePieceFont', sans-serif;
+$fontStandard : 'Oswald', sans-serif;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+// body{
+//     background:url("https://images.pexels.com/photos/17107672/pexels-photo-17107672/free-photo-of-nature-rochers-foret-arbres.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+// }

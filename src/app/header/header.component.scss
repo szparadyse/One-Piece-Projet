@@ -1,0 +1,54 @@
+// J'yimporte mon style global pour pouvoir utiliser les variable 
+@import '../../styles.scss';
+
+.navbar-component{
+    width: 100%;
+    height: 5em;
+    background-color: $bleu ;
+    display: flex;
+    align-items: center;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        span{
+            font-family: $fontOP;
+            color: $blanc;
+            font-size: 3em;
+        }
+    }
+    
+    .links ul{
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        li{
+            padding-right: 1em;
+            list-style: none;
+            color: $blanc;
+            font-family: $fontStandard;
+            font-size: 1.5em;
+            font-weight: 200;
+
+            a {
+                margin: 0 10px;
+                color: $blanc;
+                text-decoration: none;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+              
+              .active {
+                color: $jaune;
+                text-decoration: underline;
+              }
+        }
+    }
+}
+
+
